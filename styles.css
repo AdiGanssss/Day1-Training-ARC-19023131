@@ -1,0 +1,136 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header dan Navigasi */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Section Intro */
+.intro {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; /* Memberi ruang untuk header fixed */
+}
+
+.intro h1 {
+    font-size: 36px;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+/* Profil Section */
+.profil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.foto img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.info h2 {
+    color: #4CAF50;
+    font-size: 28px;
+}
+
+.info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #45a049;
+}
+
+/* Kontak Section */
+.contact {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.contact a {
+    color: #4CAF50;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
